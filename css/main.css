@@ -1,0 +1,479 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 14px;
+	background-color: #2A2A2A;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+
+/*navigation*/
+nav {
+	background-color: #262626;
+	height: 80px;
+}
+nav #logo {
+	color: #fff;
+    line-height: 20px;
+    font-size: 24px;
+    float: left;
+    padding: 15px 15px;
+    padding-left: 255px;
+    margin-top: 15px;
+    font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+nav ul {
+	float: right;
+    padding-right: 35px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 150px;
+    font-family: font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: circle;
+	margin-left: 25px;
+	border: 15px;
+}
+nav ul li.active a{
+	color:#D8D8D8;;
+}
+nav ul li a {
+	color: #D8D8D8;
+	text-decoration: none;
+	padding: 5px;
+}
+nav ul li.dynamic {
+	background-color: #FF6760;
+	padding:10px 10px 10px 10px;
+	border:none;
+	margin: 10px 0 75px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 25px;
+}
+/*article*/
+article {
+	color: #D8D8D8;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+.header {
+	margin-top: 100px;
+	margin-left: 165px;
+	float: left;
+	display: inline-block;
+	background-color: #2A2A2A;
+}
+aside h3 {
+	text-align: left;
+	color: #D8D8D8;
+	width: 35%;
+	margin-top: 150px;
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-left: 30px
+}
+aside p {
+	text-align: left;
+	color: #D8D8D8;
+	width: 35%;
+	margin-bottom: 166px;
+	display: inline-block;
+	margin-left: 30px
+}
+
+/*about*/
+.bags {
+	height: 235px;
+}
+#about {
+	background-color: #FFFFFF;
+	float: left;
+	width: 50%;
+	display: inline-block;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+h3 {
+	margin-left: 65px;
+	display: block;
+	padding-top: 10px;
+}
+p {
+	margin-top: 15px;
+	color: #616161;
+	margin-left: 65px;
+	width: 80%;
+	display: inline-block;
+}
+#socialIcons {
+	margin: 15px 0;
+}
+#socialIcons a {
+	color: #fff;
+}
+#socialIcons .fa-twitter {
+	background-color: #5DAED5;
+	margin-bottom: 20px;
+	padding: 5px;
+	border-radius: 50%;
+	margin-left: 125px;
+	margin-right: 10px;
+}
+#socialIcons .fa-facebook {
+	background-color: #4470CF;
+	padding: 5px 8px;
+	border-radius: 50%;
+}
+#bags {
+	background-color: #FFFFFF;
+	width: 50%;
+	float: right;
+	padding-top: 14px;
+	display: inline-block;
+	padding-bottom: 20px;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+/*features*/
+#features {
+	background: #F6F6F8;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	height: 550px;
+	padding-bottom: 50px;
+}
+#features .box {
+	display: inline-block;
+    width: 25%;
+    padding:5px;
+    text-align: center;
+    margin: 5% 1%;
+    margin-left: 65px;
+}    
+#features h4 {
+	margin-right: 55px;
+}
+#features h6 {
+	margin-right: 55px;
+	padding-top: 15px;
+	font-size: 12px;
+}
+
+/*WEB WINDOW*/
+#web {
+	background-color: #DDA56C;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+.text {
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+.text p {
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin-top-top: 10px;
+	margin-left: 20px;
+}
+.web{
+	float: center;
+}
+.arrow-left {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 195px;
+	padding: 0;
+}
+.web {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 0;
+	position: relative;
+    top: 5px;
+    margin-left: 285px;
+}
+.arrow-right {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 0;
+}
+/*PRICES*/
+#price {
+	background: #F6F6F8;
+	text-align: center;
+}
+#price h2 {
+	padding-top: 40px;	
+}
+#price h5 {
+	color: grey;
+	width: 33%;
+	padding-top: 25px;
+	margin-left: 430px;
+}
+#price div {
+	text-align: center;
+}
+.price a {
+	position: relative;
+	top: 40px;
+	width: 160px;
+	text-decoration: none;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	color: white;
+	display: inline-block;
+	margin-bottom: 40px;
+	padding: 15px;
+}
+.bc h3 {
+	background-color: #1A7E5A;
+	text-align: center;
+	padding: 15px;
+	margin-left: 0;
+}
+.bc h2 {
+	background-color: #156447;
+}
+.bc p {
+	background-color: #6CBFA1;
+	display: block;
+	text-align: center;
+	margin-right: 15px;
+	color: white;
+	height: 24px;
+	width: 160px;
+	padding: 0;
+	margin: 0;
+}
+.bc h4 {
+	background-color: #1A7E5A;
+	padding:10px;
+}
+.hr h3 {
+	background-color: #EA7E77;
+	text-align: center;
+	padding: 15px;
+	margin-left: 0;
+}
+.hr h2 {
+	background-color: #B95753;
+}
+.hr p {
+	background-color: #F3AEA7;
+	display: block;
+	text-align: center;
+	margin-right: 15px;
+	color: white;
+	height: 24px;
+	width: 160px;
+	padding: 0;
+	margin: 0;
+}
+.hr h4 {
+	background-color: #EA7E77;
+	padding: 10px;
+}	
+.cf h3 {
+	background-color: #579AAA;
+	text-align: center;
+	padding: 15px;
+	margin-left: 0;
+}
+.cf h2 {
+	background-color: #457A86;
+}
+.cf p {
+	background-color: #9BCAD4;
+	display: block;
+	text-align: center;
+	margin-right: 15px;
+	color: white;
+	height: 24px;
+	width: 160px;
+	padding: 0;
+	margin: 0;
+}
+.cf h4 {
+	background-color: #579AAA;
+	padding: 10px;
+}
+/*CONTACT US*/
+#contact {
+	background: #FFFFFF
+	color: white;
+	text-align: center;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	color: white;
+}	
+.top h2 {
+	color: white;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	margin-top: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.top p {
+	display: inline;
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+#box {
+	width: 50%;
+	float: right;
+}
+#box input {
+	display: inline-block;
+	height: 175px;
+	width: 300px;
+	margin-top: 15px;
+	margin-right: 300px;
+	font-size: 12px;ß
+}
+#box h3 {
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 132px;
+	background-color: #FF6760;
+	display: inline-block;
+}
+.boxes {
+	width: 50%;
+	float: left;
+}
+.contact input {
+	display: block-inline;
+	margin-left: 100px;
+	height: 25px;
+	width: 200px;
+}
+.contact input {
+	width: 320px;
+    margin: 15px;
+    margin-left: 285px; 
+    padding: 5px;
+    font-size: 12px;
+    display: block-inline;
+}
+.contacts input {
+	width: 320px;
+    margin: 15px;
+    float: right;
+    height: 100px;
+    margin-right: 250px;
+    margin-bottom: 250px;
+    font-size: 12px;
+    position: relative;
+}
+
+
+/*FOOTER*/
+footer {
+	color: white;
+	background-color: black;
+	padding: 15px;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+	height: 40px;
+	width: 100%;
+	margin-top: 30px;
+}
+footer p {
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+	margin-right: 85px;
+}
+@media screen and (max-width: 1264px) {
+	.contact input {
+		width: 100px;
+		margin-left: -40px;	
+	}
+@media screen and (max-width: 1264px) {
+	#box input {
+		display: none;
+	}			
+@media screen and (max-width: 1202px) {
+	aside h3 {
+		display: inline-block;	
+	}
+@media screen and (max-width: 1202px) {
+	aside p {
+		display: block;
+	}		
+@media screen and (max-width: 1200px) {
+	.phone {
+		display: none;
+	}
+@media screen and (max-width: 1185px) {
+	.box h4 {
+		display: inline-block;
+	}
+@media screen and (max-width: 1185px) {
+	.box h6 {
+		display: inline-block;
+	}
+@media screen and (max-width: 1183px) {
+	#bags {
+		display: none;
+	}		
+@media screen and (max-width: 1182px) {
+	.iconBox {
+		display: none;
+	}	
+@media screen and (max-width: 1100px) {
+	.web img {
+		display: none;
+	}	
+@media screen and (max-width: 875px) {
+	.header {
+		display: none;
+	}		
+@media screen and (max-width: 708px) {
+	.active {
+		display: none;
+	}
+@media screen and (max-width: 650px) {
+	.a {
+		display: none;
+	}
+@media screen and (max-width: 600px) {
+	#price h5 {
+		display: none;
+	}
+@media screen and (max-width: 600px) {
+	#price h2 {
+		font-size: 14px;
+	}
+@media screen and (max-width: 600px) {
+	#logo {
+		display: inline-block;
+		margin-left: -85px;
+	}		
+@media screen and (max-width: 550px) {
+	.b {
+		display: none;
+	}			
+@media screen and (max-width: 429px) {
+	.c {
+		display: none;
+	}			
+@media screen and (max-width: 400px) {
+	.top p {
+		font-size: 12px;
+	}		
+@media screen and (max-width: 400px) {
+	footer p {
+		margin: 10px;		
